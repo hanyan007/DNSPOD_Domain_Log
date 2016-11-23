@@ -17,11 +17,15 @@ length	否	共要获取的日志条数，比如获取20条，则为20，默认�
 8 非域名所有者
 
 
-
 CODE
 
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# @Date    : 2016-11-22
+# @Author  : Bruce (hanyan_007@139.com)
+# @Link    : https://raw.githubusercontent.com/hanyan007/DNSPOD_Domain_Log
+
+
 from flask import Flask, render_template
 from flask import request
 import sys

@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# @Date    : 2016-11-22
+# @Author  : Bruce (hanyan_007@139.com)
+# @Link    : https://raw.githubusercontent.com/hanyan007/DNSPOD_Domain_Log
 from flask import Flask, render_template
 from flask import request
 import sys
