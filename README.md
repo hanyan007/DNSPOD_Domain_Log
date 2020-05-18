@@ -18,3 +18,5 @@ length	否	共要获取的日志条数，比如获取20条，则为20，默认�
 
 
 ![images](https://github.com/hanyan007/DNSPOD_Domain_Log/blob/master/dns.png)
+
+LTAI4GHr6iPjxkJJ14HN8F9g
