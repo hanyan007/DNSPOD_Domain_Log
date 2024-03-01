@@ -9,7 +9,9 @@ POST
 domain_id 或 domain	是	分别对应域名ID和域名, 提交其中一个即可
 offset	否	记录开始的偏移，第一条记录为 0，依次类推，默认为0
 length	否	共要获取的日志条数，比如获取20条，则为20，默认为500条，单次最多获取500条
+
 ![image](https://github.com/hanyan007/DNSPOD_Domain_Log/assets/14324188/2b70a3c6-5e70-4fb6-866e-e7620d308199)
+
 
 
 响应代码：
