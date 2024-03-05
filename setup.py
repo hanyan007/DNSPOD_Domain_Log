@@ -8,18 +8,22 @@
 from distutils.core import setup
 from setuptools import find_packages
 
+
 with open("README.rst", "r") as f:
   long_description = f.read()
 
 
-setup(name='DNSPOD_Domain_Log',  # 包名
-      version='1.0.0',  # 版本号
+setup(name='dnspod_domain_log',  # 包名
+      version='1.0.4',  # 版本号
       description='return the log for dns resolution',
       long_description=long_description,
       author='hanyan_news',
       author_email='hanyan0572@gmail.com',
-      url='git@github.com:hanyan007/DNSPOD_Domain_Log.git',
-      install_requires=[],
+      url='https://github.com/hanyan007/DNSPOD_Domain_Log.git',
+      project_urls={  # Optional
+          "Source": 'https://github.com/hanyan007/DNSPOD_Domain_Log.git',
+      },
+      install_requires=["package-tea-hanyan==1.0.3", "package-tea-seven==1.0.0"],
       license='BSD License',
       packages=find_packages(),
       platforms=["all"],
