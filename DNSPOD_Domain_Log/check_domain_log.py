@@ -16,7 +16,8 @@ app = Flask(__name__)
 @app.route('/')
 def welcome():
     lt= [] #将结果导入list
-    posturl = 'https://dnsapi.cn/Domain.Log'  #dnspod接口
+    posturl = 'https://dnsapi.cn/Domain.Log'  #本接口 Domain.Log 用于获取域名信息。
+    #example curl -X POST https://dnsapi.cn/Domain.Log  -d 'login_token=LOGIN_TOKEN&format=json&domain_id=2059079'
     postdata = {'login_token':'10xxxxxxxxxxxxxx','format':'json','domain':'keabc.com','length':'20'}#json格式的请求参数
     req = urllib2.Request(posturl)
     data = urllib.urlencode(postdata) #post数据需要urlencode()下，将字典转换成“data1=value1&data2=value2”的格式
